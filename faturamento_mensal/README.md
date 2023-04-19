@@ -1,15 +1,25 @@
-# Verificador de números pertencentes à sequência de Fibonacci
+# Análise de Faturamento Diário
+Este código em JavaScript lê um arquivo JSON que contém informações de faturamento diário e realiza algumas análises sobre esses dados. O objetivo é encontrar o menor valor, o maior valor e o número de dias em que o valor de faturamento diário foi superior à média mensal.
 
-Este código em JavaScript tem como objetivo verificar se um número informado pertence à sequência de Fibonacci. Para utilizá-lo, é necessário ter o Node.js instalado na máquina.
+## JSON
+Para utilizar esse código, é necessário ter o Node.js instalado na sua máquina. Além disso o arquivo JSON contém um array com informações sobre o faturamento diário. Cada objeto dentro do array contém informações sobre um determinado dia, incluindo a data e o valor do faturamento.
 
-## Como utilizar
-1. Abra o arquivo em um editor de código ou ambiente de desenvolvimento integrado (IDE).
-2. Altere o valor da variável numeroVerificado para o número que deseja verificar.
-3. Execute o arquivo com o comando node nomeDoArquivo.js.
-4. O resultado será exibido no console.
+## Como executar o script
+1. Faça o download do arquivo 'faturamento.json' e coloque-o na mesma pasta do script 'main.js'.
+2. Abra um terminal ou prompt de comando.
+3. Navegue até a pasta onde o script 'main.js' e o arquivo 'faturamento.json' estão localizados.
+4. Digite o seguinte comando: node main.js
+5. Pressione Enter para executar o script.
 
-## Funcionamento
-O código utiliza um loop while para calcular a sequência de Fibonacci até que o próximo número seja maior ou igual ao número informado. Em seguida, ele verifica se o número informado pertence à sequência de Fibonacci. Se pertencer, será exibida a mensagem <número> pertence à sequência de Fibonacci. Caso contrário, será exibida a mensagem <número> não pertence à sequência de Fibonacci.
+## Saída
+Ao executar o script, as seguintes informações serão exibidas no console:
 
-## Requisitos
-Para utilizar este código, é necessário ter o Node.js instalado na máquina.
+O menor valor de faturamento diário: R$[valor];
+O maior valor de faturamento diário: R$[valor];
+O número de dias com faturamento diário acima da média mensal: [número].
+
+## Notas adicionais
+O script utiliza o módulo Node.js 'fs' para ler o arquivo JSON.
+A média mensal é calculada como o total de faturamento dividido pelo número de dias do mês.
+Os valores de faturamento são considerados apenas se forem maiores que zero.
+O script assume que o arquivo 'faturamento.json' está formatado corretamente e que contém uma chave 'faturamento_diario' com um array de objetos que contêm chaves 'dia' e 'valor'.
