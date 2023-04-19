@@ -19,7 +19,7 @@ O maior valor de faturamento diário: R$[valor];
 O número de dias com faturamento diário acima da média mensal: [número].
 
 ## Notas adicionais
-O script utiliza o módulo Node.js 'fs' para ler o arquivo JSON.
-A média mensal é calculada como o total de faturamento dividido pelo número de dias do mês.
-Os valores de faturamento são considerados apenas se forem maiores que zero.
+O script utiliza o módulo Node.js 'fs' para ler o arquivo JSON.<br/>
+A média mensal é calculada como o total de faturamento dividido pelo número de dias do mês.<br/>
+Os valores de faturamento são considerados apenas se forem maiores que zero.<br/>
 O script assume que o arquivo 'faturamento.json' está formatado corretamente e que contém uma chave 'faturamento_diario' com um array de objetos que contêm chaves 'dia' e 'valor'.
