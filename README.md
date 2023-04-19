@@ -6,7 +6,7 @@ Este é um monorepo para a realização de atividades em JavaScript. O repositó
 
 * inverte_caracteres_string: Projeto que inverte os caracteres de uma string de entrada.
 
-* percentual_de_representacao: Projeto que recebe um objeto com informações sobre a quantidade de votos em uma eleição e calcula o percentual de representação de cada partido.
+* percentual_de_representacao: Projeto que cálcula o percentual de representação do faturamento mensal de uma distribuidora por estado.
 
 * sequencia_fibonacci: Projeto que imprime válida se o número que o usuário digitou faz ou não parte da sequência de fibonacci.
 
