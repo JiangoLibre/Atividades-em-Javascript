@@ -14,8 +14,8 @@ Para utilizar esse código, é necessário ter o Node.js instalado na sua máqui
 ## Saída
 Ao executar o script, as seguintes informações serão exibidas no console:
 
-O menor valor de faturamento diário: R$[valor];
-O maior valor de faturamento diário: R$[valor];
+O menor valor de faturamento diário: R$[valor];<br/>
+O maior valor de faturamento diário: R$[valor];<br/>
 O número de dias com faturamento diário acima da média mensal: [número].
 
 ## Notas adicionais
