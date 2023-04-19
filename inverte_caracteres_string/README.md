@@ -5,7 +5,7 @@ Este código em JavaScript tem como objetivo inverter uma string.
 ## Como utilizar
 1. Abra o arquivo em um editor de código ou ambiente de desenvolvimento integrado (IDE).
 2. Altere o valor da variável str para a string que deseja inverter.
-3. Execute o arquivo com o comando node nomeDoArquivo.js.
+3. Execute o arquivo com o comando node reverseString.js.
 4. O resultado será exibido no console.
 
 ## Funcionamento
