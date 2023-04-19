@@ -5,10 +5,10 @@ Este código em JavaScript lê um arquivo JSON que contém informações de fatu
 Para utilizar esse código, é necessário ter o Node.js instalado na sua máquina. Além disso o arquivo JSON contém um array com informações sobre o faturamento diário. Cada objeto dentro do array contém informações sobre um determinado dia, incluindo a data e o valor do faturamento.
 
 ## Como executar o script
-1. Faça o download do arquivo 'faturamento.json' e coloque-o na mesma pasta do script 'main.js'.
+1. Faça o download do arquivo 'faturamento.json' e coloque-o na mesma pasta do script 'faturamento.js'.
 2. Abra um terminal ou prompt de comando.
-3. Navegue até a pasta onde o script 'main.js' e o arquivo 'faturamento.json' estão localizados.
-4. Digite o seguinte comando: node main.js
+3. Navegue até a pasta onde o script 'faturamento.js' e o arquivo 'faturamento.json' estão localizados.
+4. Digite o seguinte comando: node faturamento.js
 5. Pressione Enter para executar o script.
 
 ## Saída
