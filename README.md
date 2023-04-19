@@ -10,7 +10,7 @@ Este é um monorepo para a realização de atividades em JavaScript. O repositó
 
 * sequencia_fibonacci: Projeto que imprime a sequência de Fibonacci até o número escolhido pelo usuário.
 
-##Como utilizar
+## Como utilizar
 Para utilizar qualquer um dos projetos, basta acessar a pasta correspondente e executar o arquivo JavaScript presente na pasta.<br/>
 É necessário ter o Node.js instalado no seu computador para executar os projetos.<br/><br/>
 
