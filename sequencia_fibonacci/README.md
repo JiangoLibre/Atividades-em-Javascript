@@ -5,7 +5,7 @@ Este código em JavaScript tem como objetivo verificar se um número informado p
 ## Como utilizar
 1. Abra o arquivo em um editor de código ou ambiente de desenvolvimento integrado (IDE).
 2. Altere o valor da variável numeroVerificado para o número que deseja verificar.
-3. Execute o arquivo com o comando node nomeDoArquivo.js.
+3. Execute o arquivo com o comando node fibonacci.js.
 4. O resultado será exibido no console.
 
 ## Funcionamento
