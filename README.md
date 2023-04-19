@@ -8,7 +8,7 @@ Este é um monorepo para a realização de atividades em JavaScript. O repositó
 
 * percentual_de_representacao: Projeto que recebe um objeto com informações sobre a quantidade de votos em uma eleição e calcula o percentual de representação de cada partido.
 
-* sequencia_fibonacci: Projeto que imprime a sequência de Fibonacci até o número escolhido pelo usuário.
+* sequencia_fibonacci: Projeto que imprime válida se o número que o usuário digitou faz ou não parte da sequência de fibonacci.
 
 ## Como utilizar
 Para utilizar qualquer um dos projetos, basta acessar a pasta correspondente e executar o arquivo JavaScript presente na pasta.<br/>
