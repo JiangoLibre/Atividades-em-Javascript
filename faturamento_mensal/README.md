@@ -1,4 +1,4 @@
-Verificador de números pertencentes à sequência de Fibonacci
+#Verificador de números pertencentes à sequência de Fibonacci
 
 Este código em JavaScript tem como objetivo verificar se um número informado pertence à sequência de Fibonacci. Para utilizá-lo, é necessário ter o Node.js instalado na máquina.
 
